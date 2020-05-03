@@ -33,8 +33,8 @@ Special Characters ; < > >> 2> 2>> 2>&1
  | &
 1. ; --> signals end of command
 2. < --> input redirection. Filename must follow
-3. > --> output redirection. Filename must follow
-4. >> --> output append redirection. Filename must follow
+3. \> --> output redirection. Filename must follow
+4. \>\> --> output append redirection. Filename must follow
 5. 2> --> diagnostic output redirection. Filename must follow
 6. 2>> --> diagnostic output append redirection. Filename must follow
 7. 2>&1 --> diagnostic error to output
